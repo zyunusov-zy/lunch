@@ -1,1 +1,3 @@
-export const API_BASE_URL = window._env_?.VITE_API_BASE_URL || import.meta.env.VITE_API_BASE_URL || "ws://localhost:8080";
+export const API_BASE_URL = window._env_?.VITE_API_BASE_URL || import.meta.env.VITE_API_BASE_URL || "ws://10.144.2.167:8000/ws?token=afueh3qh4irh2893rh2389dhn32h89rd329ijed9832hfriefh932h";
+export const HTTP_API_BASE_URL = window._env_?.VITE_API_BASE_URL || import.meta.env.VITE_API_BASE_URL || "http://10.144.2.167:8000/api/get-orders/";
+export const HTTP_API_B_U = window._env_?.VITE_API_BASE_URL || import.meta.env.VITE_API_BASE_URL || "http://10.144.2.167:8000";
